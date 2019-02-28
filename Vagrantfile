@@ -60,7 +60,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "osquery3" do |osquery3|
     osquery3.vm.box = "debian/stretch64"
-    osquery3.vm.hostname = "patroni3"
+    osquery3.vm.hostname = "osquery3"
     osquery3.vm.network "private_network", ip: $OSQUERY3_IP
 
     osquery3.vm.provider :virtualbox do |v, override|
