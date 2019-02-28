@@ -1,1 +1,2 @@
 apt_key_url: "https://download.docker.com/linux/ubuntu/gpg"
+kolide_fleet_enroll_secret: "CdQFYHbFsXPNj58dKfhRclisOsV+BX5w"
