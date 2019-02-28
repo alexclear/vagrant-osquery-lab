@@ -8,3 +8,6 @@ kolide_fleet_mysql_user: "{{ docker_mysql_user }}"
 kolide_fleet_mysql_password: "{{ docker_mysql_password }}"
 kolide_fleet_redis_address: 172.16.137.132:6379
 kolide_fleet_auth_jwt_key: "xfkthyzNbEdjn1sCAu9B47n81iOmSYIf"
+kolide_fleet_email: "admin@localhost"
+kolide_fleet_password: "Taem2shien5aYeewu4vi$"
+kolide_fleet_orgname: "OSQuery Vagrant Lab"
