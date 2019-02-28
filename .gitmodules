@@ -19,3 +19,9 @@
 [submodule "ansible/roles/redis-container"]
 	path = ansible/roles/redis-container
 	url = https://github.com/kofonfor/ansible-role-redis-container.git
+[submodule "ansible/roles/kolide-osquery-launcher"]
+	path = ansible/roles/kolide-osquery-launcher
+	url = https://github.com/kofonfor/ansible-role-kolide-osquery-launcher.git
+[submodule "ansible/roles/systemd-service-unit"]
+	path = ansible/roles/systemd-service-unit
+	url = https://github.com/kofonfor/ansible-role-systemd-service-unit.git
