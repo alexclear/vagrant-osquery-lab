@@ -11,3 +11,8 @@
   - role: mysql-container
   - role: redis-container
   - role: kolide-fleet
+
+- hosts: all
+  become: yes
+  roles:
+  - role: kolide-osquery-launcher
