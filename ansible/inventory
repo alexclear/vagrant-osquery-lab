@@ -1,0 +1,11 @@
+[osquery1]
+osquery1 ansible_host=172.16.137.132
+
+[osquery2]
+osquery2 ansible_host=172.16.137.133
+
+[osquery3]
+osquery3 ansible_host=172.16.137.134
+
+[kolide-fleet-server:children]
+osquery1

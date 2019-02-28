@@ -1,0 +1,10 @@
+docker_mysql_root_password: Aitheelai7ugeiK6aej2
+docker_mysql_password: aiwaineeritaB6eing4J
+docker_mysql_user: fleet
+docker_mysql_database: fleet
+kolide_fleet_mysql_address: 172.16.137.132:3306
+kolide_fleet_mysql_database: "{{ docker_mysql_database }}"
+kolide_fleet_mysql_user: "{{ docker_mysql_user }}"
+kolide_fleet_mysql_password: "{{ docker_mysql_password }}"
+kolide_fleet_redis_address: 172.16.137.132:6379
+kolide_fleet_auth_jwt_key: "xfkthyzNbEdjn1sCAu9B47n81iOmSYIf"
